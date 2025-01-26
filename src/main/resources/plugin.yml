@@ -1,0 +1,5 @@
+name: NuriaAbilities
+version: '1.5.1'
+main: nr.nuria.nuriaAbilities.NuriaAbilities
+api-version: '1.19'
+author: 'Nuria,fctory'

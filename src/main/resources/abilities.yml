@@ -1,0 +1,207 @@
+antibuild:
+  name: "#a8c9ff&lANTIBUILD &8◌ &7Attack-player"
+  material: CYAN_CANDLE
+  texture: "" # Only if material is PLAYER_HEAD. Example: texture: "http://textures.minecraft.net/texture/7a7d6c0accd2e9ccaefa96b9438d6e202fec795acf7072bcfd9cd9d4b5a32b0e"
+  lore:
+    - "&8Special Item"
+    - ""
+    - "&7Use this item to see its function!"
+    - ""
+    - "#a8c9ff⇝ Attack a player to use"
+  glowing: true
+  hits: 3 # Hits to activate item
+  reduce-amount: 1
+  cooldown: -1  # Cooldown in seconds -1 = disabled
+  duration: 10  # Duration in seconds
+  effects:
+    start:
+      sound:
+        name: BLOCK_NOTE_BLOCK_PLING
+        pitch: 1.0
+        volume: 1.0
+      particle: SPELL_WITCH
+    end:
+      sound:
+        name: ENTITY_GENERIC_EXPLODE
+        pitch: 1.0
+        volume: 1.0
+      particle: EXPLOSION_NORMAL
+  restricted-materials:
+    - COBWEB
+    - YELLOW_WOOL
+
+timemachine:
+  name: "#acd98d&lTIME-MACHINE &8◌ &7Right-click"
+  material: CLOCK
+  texture: "" # Only if material is PLAYER_HEAD. Example: texture: "http://textures.minecraft.net/texture/7a7d6c0accd2e9ccaefa96b9438d6e202fec795acf7072bcfd9cd9d4b5a32b0e"
+  lore:
+    - "&8Special Item"
+    - ""
+    - "&7Use this item to see its function!"
+    - ""
+    - "#acd98d⇝ Right-click to use"
+  glowing: true
+  cooldown: -1 # Cooldown in seconds -1 = disabled
+  reduce-amount: 1
+  duration: 5 # Duration in seconds to go back in time
+  effects:
+    start:
+      sound:
+        name: BLOCK_NOTE_BLOCK_PLING
+        pitch: 1.0
+        volume: 1.0
+      particle: SPELL_WITCH
+    end:
+      sound:
+        name: ENTITY_GENERIC_EXPLODE
+        pitch: 1.0
+        volume: 1.0
+      particle: EXPLOSION_NORMAL
+
+antielytra:
+  name: "#cda3ff&lANTIELYTRA &8◌ &7Attack-player"
+  material: HEART_OF_THE_SEA
+  texture: "" # Only if material is PLAYER_HEAD. Example: texture: "http://textures.minecraft.net/texture/7a7d6c0accd2e9ccaefa96b9438d6e202fec795acf7072bcfd9cd9d4b5a32b0e"
+  lore:
+    - "&8Special Item"
+    - ""
+    - "&7Use this item to see its function!"
+    - ""
+    - "#cda3ff⇝ Attack a player to use"
+  glowing: true
+  hits: 1
+  cooldown: -1 # Cooldown in seconds -1 = disabled
+  reduce-amount: 1
+  duration: 10 # Duration in seconds
+  effects:
+    start:
+      sound:
+        name: BLOCK_NOTE_BLOCK_PLING
+        pitch: 1.0
+        volume: 1.0
+      particle: SPELL_WITCH
+    end:
+      sound:
+        name: ENTITY_GENERIC_EXPLODE
+        pitch: 1.0
+        volume: 1.0
+      particle: EXPLOSION_NORMAL
+
+trapper:
+  name: "#ff6c6c&lTRAPPER &8◌ &7Right-click"
+  material: IRON_BARS
+  texture: "" # Only if material is PLAYER_HEAD. Example: texture: "http://textures.minecraft.net/texture/7a7d6c0accd2e9ccaefa96b9438d6e202fec795acf7072bcfd9cd9d4b5a32b0e"
+  lore:
+    - "&8Special Item"
+    - ""
+    - "&7Use this item to see its function!"
+    - ""
+    - "#ff98a1⇝ Right-click to use"
+  glowing: true
+  sphere-material: GLASS
+  sphere-duration: 5  # Duration in seconds
+  sphere-radius: 5
+  reduce-amount: 1
+  cooldown: -1  # Cooldown in seconds -1 = disabled
+  effects:
+    start:
+      sound:
+        name: BLOCK_NOTE_BLOCK_PLING
+        pitch: 1.0
+        volume: 1.0
+      particle: SPELL_WITCH
+    end:
+      sound:
+        name: ENTITY_GENERIC_EXPLODE
+        pitch: 1.0
+        volume: 1.0
+      particle: EXPLOSION_NORMAL
+  replaceable-materials:
+      - AIR
+      - LIGHT
+
+webtrap:
+  name: "#ffb482&lWEBTRAP &8◌ &7Attack-player"
+  material: FIRE_CHARGE
+  texture: "" # Only if material is PLAYER_HEAD. Example: texture: "http://textures.minecraft.net/texture/7a7d6c0accd2e9ccaefa96b9438d6e202fec795acf7072bcfd9cd9d4b5a32b0e"
+  lore:
+    - "&8Special Item"
+    - ""
+    - "&7Use this item to see its function!"
+    - ""
+    - "#ffb482⇝ Attack a player to use"
+  glowing: true
+  hits: 1
+  cooldown: -1  # Cooldown in seconds -1 = disabled
+  reduce-amount: 1
+  duration: -1  # Duration in seconds -1 = disabled
+  height: 1
+  width: 3
+  effects:
+    start:
+      sound:
+        name: BLOCK_NOTE_BLOCK_PLING
+        pitch: 1.0
+        volume: 1.0
+      particle: SPELL_WITCH
+    end:
+      sound:
+        name: ENTITY_GENERIC_EXPLODE
+        pitch: 1.0
+        volume: 1.0
+      particle: EXPLOSION_NORMAL
+  replaceable-materials:
+      - AIR
+      - LIGHT
+
+webdel:
+  name: "#ff98a1&lWEBDEL &8◌ &7Right-click"
+  material: BONE
+  texture: "" # Only if material is a PLAYER_HEAD
+  lore:
+    - "&8Special Item"
+    - ""
+    - "&7Use this item to see its function!"
+    - ""
+    - "#ff98a1⇝ Right-click to use"
+  glowing: true
+  cooldown: -1  # Cooldown in seconds -1 = disabled
+  reduce-amount: 1
+  height: 3
+  width: 3
+  effects:
+    start:
+      sound:
+        name: BLOCK_NOTE_BLOCK_PLING
+        pitch: 1.0
+        volume: 1.0
+      particle: SPELL_WITCH
+
+revolver:
+  name: "#d395ff&lREVOLVER &8◌ &7Attack-player"
+  material: BLAZE_ROD
+  texture: "" # Only if material is PLAYER_HEAD. Example: texture: "http://textures.minecraft.net/texture/7a7d6c0accd2e9ccaefa96b9438d6e202fec795acf7072bcfd9cd9d4b5a32b0e"
+  lore:
+    - "&8Special Item"
+    - ""
+    - "&7Use this item to see its function!"
+    - ""
+    - "#d395ff⇝ Attack a player to use"
+  glowing: true
+  hits: 1
+  reduce-amount: 1
+  cooldown: -1  # Cooldown in seconds (-1 disabled)
+  mode: hotbar+offhand  # Possible modes: hotbar, inventory, hotbar+offhand, inventory+offhand, full
+  effects:
+    start:
+      sound:
+        name: BLOCK_NOTE_BLOCK_PLING
+        pitch: 1.0
+        volume: 1.0
+      particle: SPELL_WITCH
+    end:
+      sound:
+        name: ENTITY_GENERIC_EXPLODE
+        pitch: 1.0
+        volume: 1.0
+      particle: EXPLOSION_NORMAL

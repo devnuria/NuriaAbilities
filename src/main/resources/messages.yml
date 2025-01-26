@@ -1,0 +1,44 @@
+# Messages
+reload-config: "{prefix}&aFiles successfully reloaded"
+update-message: "{prefix}&fCurrent version: #ea213a{currentversion} &7| &fNew version: #95d14c{newversion} &7| &7Click this text for update plugin!"
+cooldown-message: "{prefix}&cYou need to wait &4{time} second(s) &cbefore using this item again."
+get-ability: "{prefix}&bYou have received &f{amount} item(s) {item}&b!"
+get-all-abilitys: "{prefix}&aYou have received all items!"
+ability-activated: "{prefix}&aThe item {item} &ahas been activated."
+region-blocked: "{prefix}&cYou cannot use item {item} &cin this region."
+
+# Block messages when trying to use the ability
+place-blocked: "{prefix}&cYou cannot place the item {item}&c."
+break-blocked: "{prefix}&cYou cannot break blocks with the item {item} &cin hand."
+attack-blocked: "{prefix}&cYou cannot attack someone with this item {item}&c."
+
+# messages of Revolver
+rv-title: "&eYour hotbar has been shuffled!"
+rv-subtitle: "&cTame the chaos!"
+
+# messages of Webdel
+wb-message: "&aYou have removed &7(&f{amount}&7) &awebs"
+
+# messages of Webtrap
+wt-message: "&aYou have trapped {target} in webs"
+
+# messages of AntiElytra
+ae-title: "#7bb2edYour Elytras Have Been Removed"
+ae-subtitle: "#9ac2edWatch Out!"
+ae-title-b: "#aecde8Your Elytras Have Been Returned"
+ae-subtitle-b: "#c2e4f0Good Luck!"
+ae-message: "&aYou have removed {target}'s Elytras."
+ae-equip-elytra: "&cYou cannot equip Elytras during the AntiElytra effect."
+
+# messages of TimeMachine
+tm-title: "#acd98d¡Time Machine!"
+tm-subtitle: "&f¡You'll be back in #7cbb92{seconds}s&f!"
+tm-title-b: "#acd98d¡Time Machine!"
+tm-subtitle-b: "&f¡You're back!"
+
+# AntiBuild messages
+ab-place-blocked: "{prefix}&cYou cannot place this block."
+ab-break-blocked: "{prefix}&cYou cannot break this block."
+ab-title: "#a8c9ff¡AntiBuild!"
+ab-subtitle: "&fBuilding and breaking certain blocks are temporarily disabled."
+ab-finish: "{prefix}&aThe AntiBuild effect has ended!"
